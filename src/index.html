@@ -1,93 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&family=Raleway:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="../dist/style.css" />
+    <title>Persona 5</title>
+  </head>
 
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../dist/output.css">
-  <title>Persona 5</title>
-</head>
+  <body class="h-max bg-red-900">
+    <div class="relative">
+      <header
+        class="fixed w-full bg-red-700 mx-auto px-20 h-24 flex items-center"
+      >
+        <div>
+          <a href="index.html" class="grid-4">
+            <img
+              src="../img/logo-p5.png"
+              alt="Persona 5 Logo"
+              style="width: 130px"
+            />
+          </a>
+        </div>
 
-<body class="h-max bg-red-900">
-  <div class="relative">
-    <header class="fixed w-full bg-red-700 mx-auto px-20 h-24 flex items-center">
-    <div>
-      <a href="index.html" class="grid-4">
-        <img src="../img/logo-p5.png" alt="Persona 5 Logo" style="width: 130px" />
-      </a>
+        <ul class="ml-auto">
+          <li class="flex items-center">
+            <a class="mx-2" href="sobre.html" class="text-lg text-neutral-50"
+              ><img style="height: 25px" src="../img/sobre.png" alt="sobre"
+            /></a>
+            <a
+              class="mx-2"
+              href="avaliacoes.html"
+              class="text-lg text-neutral-50"
+              ><img
+                style="height: 25px"
+                src="../img/avaliacoes.png"
+                alt="avaliacoes"
+              />
+            </a>
+            <a
+              class="mx-2"
+              href="onde-comprar.html"
+              class="text-lg text-neutral-50"
+              ><img
+                style="height: 50px"
+                src="../img/onde-comprar.png"
+                alt="onde-comprar"
+            /></a>
+            <a class="mx-2" href="galeria.html" class="text-lg text-neutral-50"
+              ><img style="height: 25px" src="../img/galeria.png" alt="galeria"
+            /></a>
+          </li>
+        </ul>
+      </header>
     </div>
 
-    <ul class="ml-auto">
-      <li class="flex items-center">
-        <a class="mx-2" href="sobre.html" class="text-lg text-neutral-50"><img style="height: 25px" src="../img/sobre.png" alt="sobre"></a>
-        <a class="mx-2" href="avaliacoes.html" class="text-lg text-neutral-50"><img style="height: 25px" src="../img/avaliacoes.png" alt="avaliacoes"> </a>
-        <a class="mx-2" href="onde-comprar.html" class="text-lg text-neutral-50"><img style="height: 50px" src="../img/onde-comprar.png" alt="onde-comprar"></a>
-        <a class="mx-2" href="galeria.html" class="text-lg text-neutral-50"><img style="height: 25px" src="../img/galeria.png" alt="galeria"></a>
-      </li>
-    </ul>
-  </header>
-  </div>
-  
-  <!--Banner-->
-  <div class="pt-24">
-    <div class="w-full h-full object-cover shadow-inner shadow-2xl shadow-white-800">
-      <img src="../img/background.jpg" alt="Imagem de fundo com os phantom thiefs">
+    <!--Banner-->
+    <div class="pt-24">
+      <div
+        class="w-full h-full object-cover shadow-inner shadow-2xl shadow-white-800"
+      >
+        <img
+          src="../img/background.jpg"
+          alt="Imagem de fundo com os phantom thiefs"
+        />
+      </div>
     </div>
-  </div>
 
+    <!--Sobre-->
+    <div
+      class="container mx-auto pt-10 text-lg tracking-widest text-neutral-50 w-max"
+    >
+      <div
+        class="p-4 border-2 border-black bg-black shadow-2xl shadow-stone-900"
+        style="font-family: 'Nunito', sans-serif; border-radius: 36px"
+      >
+        <h2 class="sobre-bloco text-center mb-4">
+          <img class="inline" src="../img/sobre.png" style="height: 90px" />
+          
+        </h2>
+        <div class="grid grid-cols-2 grid-rows-1 gap-5 px-2">
+          <div class="pr-0">
+            <p class="max-h-max leading-9">
+              Persona 5 é o sexto jogo das séries Persona, sendo um RPG
+              (role-playing game) desenvolvido pela Atlus P-Studio. <br /><br />
+              O jogo é sobre uma fantasia baseada na realidade, que conta a
+              história de um grupo problemático de adolescentes do ensino médio,
+              na qual o protagonista conhece cada um dos integrantes ao longo da
+              história. <br /><br />
+              O grupo é formado com o intuito de deter adultos com mentes
+              distorcidas que dominam a sociedade, que impõem a submissão, à
+              opressão e à injustiça.
+              <br />Em busca da libertação e justiça, os adolescentes vivem uma
+              vida dupla como Phantom Thieves of Hearts e estudantes do ensino
+              médio. <br />
+              Com um aplicativo de celular misterioso, o grupo entra em uma
+              aventura fantasiosa, usando os seus poderes de outra realidade
+              para poder entrar no coração das pessoas, com o objetivo de
+              transformá-las em pessoas novas.
+            </p>
+          </div>
 
-  <!--Sobre-->
-  <div class="container mx-auto pt-10  text-lg tracking-widest text-neutral-50 w-max">
- 
-    <div class="p-4 border-2 border-black bg-black shadow-2xl shadow-stone-900" style="font-family: 'Nunito', sans-serif;border-radius: 36px;">
-      <h2 class="text-center mb-4"><img class="inline" src="../img/sobre.png" style="height: 90px;"></h2>
-      <div class="grid grid-cols-2 grid-rows-1 gap-5 px-2">
-        <div class="pr-0">
-          <p class="max-h-max leading-9">
-            Persona 5 é o sexto jogo das séries Persona, sendo um RPG (role-playing game) desenvolvido pela Atlus’ P-Studio. <br>
-            O jogo é sobre uma fantasia baseada na realidade, que conta a história de um grupo problemático de adolescentes do ensino médio, na qual o protagonista conhece cada um dos integrantes ao longo da história. <br><br><br><br>
-            O grupo é formado com o intuito de deter adultos com mentes distorcidas que dominam a sociedade, que impõem a submissão, à opressão e à injustiça.
-            <br>Em busca da libertação e justiça, os adolescentes vivem uma vida dupla como Phantom Thieves of Hearts e estudantes do ensino médio. <br>
-            Com um aplicativo de celular misterioso, o grupo entra em uma aventura fantasiosa, usando os seus poderes de outra realidade para poder entrar no coração das pessoas, com o objetivo de transformá-las em pessoas novas.
+          <div class="text-center">
+            <img
+              src="../img/gameplay-gif-1.gif"
+              alt=""
+              class="inline border-2 border-black mb-4"
+              style="border-radius: 24px"
+            />
+            <img
+              src="../img/gameplay-gif-2.gif"
+              alt=""
+              class="inline border-2 border-black mb-4"
+              style="border-radius: 24px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="bg-white mt-10">
+      <!--Avaliações e onde comprar-->
+      <h2 class="avaliacoes-bloco text-center mb-4 pt-4">
+        <img class="inline" src="../img/avaliacoes.png" style="height: 90px" />
+      </h2>
+      <div class="grid grid-cols-3 gap-4"> 
+        <div>
+          <h3>IGN</h3>
+          <p>9.7 / 10</p>
+          <p>
+            
           </p>
         </div>
-        
-        <div class="text-center">
-          <img src="../img/gameplay-gif-1.gif" alt="" class="inline border-2 border-black mb-4" style="border-radius: 24px;">
-          <img src="../img/gameplay-gif-2.gif" alt="" class="inline border-2 border-black mb-4" style="border-radius: 24px;"> 
-        </div>
-       
-        
-            
-        
-        
-        
+        <div>teste 2</div>
+        <div>teste 3</div>
+
+
       </div>
-      
-
-
     </div>
 
-    
-    
+    <div>
+      <!--Galeria-->
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-    
-  </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <div>
-    <!--Avaliações e onde comprar-->
-  </div>
-
-  <div>
-    <!--Galeria-->
-  </div>
-
-  <footer></footer>
-</body>
-
+    <footer></footer>
+  </body>
 </html>
