@@ -652,6 +652,10 @@ video {
   height: 100%;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .max-h-max {
   max-height: -webkit-max-content;
   max-height: -moz-max-content;
@@ -666,6 +670,22 @@ video {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-px {
+  width: 1px;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .transform {
@@ -696,8 +716,16 @@ video {
   gap: 1rem;
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border-2 {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-black {
