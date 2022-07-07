@@ -15,3 +15,12 @@
   background: black;
   margin: 0 auto;
 }
+
+.onde-comprar-bloco::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background: black;
+  margin: 0 auto;
+}
