@@ -15,83 +15,88 @@
 </head>
 
 <body class="h-max bg-red-700" style="font-family: 'Nunito', sans-serif;">
-  <div class="relative">
-    <!--Header-->
-    <header class="fixed w-full bg-red-600 mx-auto px-20 flex items-center" style="height: 13vh">
+  <!--Header-->
+  <div class="relative"> 
+    <header class="fixed w-full bg-red-600 mx-auto lg:px-20 flex items-center h-12 xl:h-32 md:h-28">
       <div>
         <a href="index.html" class="grid-4">
-          <img src="../img/logo-p5.png" alt="Persona 5 Logo" style="width: 10vw" />
+          <img src="../img/logo-p5.png" alt="Persona 5 Logo" class="w-16 xl:w-40 md:w-36" />
         </a>
       </div>
 
       <ul class="ml-auto">
         <li class="flex items-center">
-          <a class="mx-2" href="sobre.html" class="text-lg text-neutral-50"><img style="width: 8vw" src="../img/sobre.png" alt="sobre" /></a>
-          <a class="mx-2" href="avaliacoes.html" class="text-lg text-neutral-50"><img style="width: 8vw" src="../img/avaliacoes.png" alt="avaliacoes" />
+          <a class="mx-2" href="sobre.html" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/sobre.png" alt="sobre" /></a>
+          <a class="mx-2" href="avaliacoes.html" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/avaliacoes.png" alt="avaliacoes" />
           </a>
-          <a class="mx-2" href="onde-comprar.html" class="text-lg text-neutral-50"><img style="width: 8vw" src="../img/onde-comprar.png" alt="onde-comprar" /></a>
-          <a class="mx-2" href="galeria.html" class="text-lg text-neutral-50"><img style="width: 8vw" src="../img/galeria.png" alt="galeria" /></a>
+          <a class="mx-2" href="onde-comprar.html" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/onde-comprar.png" alt="onde-comprar" /></a>
+          <a class="mx-2" href="galeria.html" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/galeria.png" alt="galeria" /></a>
         </li>
       </ul>
     </header>
   </div>
 
   <!--Banner-->
-  <div class="pt-24">
+  <div class="pt-10 xl:pt-28 md:pt-24">
     <div class="w-full h-full object-cover shadow-inner shadow-2xl shadow-white-800">
       <img src="../img/background.jpg" alt="Imagem de fundo com os phantom thiefs" />
     </div>
   </div>
 
   <!--Sobre-->
-  <div class="container mx-auto pt-10 text-lg tracking-widest text-neutral-50 w-max">
+  <div class="container mx-auto pt-10 text-lg tracking-widest text-neutral-50 ">
     <div class="p-4 border-2 border-black bg-black shadow-2xl shadow-stone-900" style="border-radius: 36px">
       <h2 class="sobre-bloco text-center mb-4">
         <img class="inline" src="../img/sobre.png" style="height: 90px" />
       </h2>
-      <div class="grid grid-cols-2 grid-rows-1 gap-5 px-2">
-        <div class="pr-0">
-          <p class="max-h-max leading-9">
-            Persona 5 é o sexto jogo das séries Persona, sendo um RPG
+      <div class="lg:grid lg:grid-cols-2 lg:grid-rows-1 lg:gap-5 lg:px-2 space-y-6 lg:space-y-0">
+        <div class="max-h-max leading-9 text-justify">
+          Persona 5 é o sexto jogo das séries Persona, sendo um RPG
             (role-playing game) desenvolvido pela Atlus P-Studio. <br /><br />
             O jogo é sobre uma fantasia baseada na realidade, que conta a
             história de um grupo problemático de adolescentes do ensino médio,
             na qual o protagonista conhece cada um dos integrantes ao longo da
-            história. <br /><br />
-            O grupo é formado com o intuito de deter adultos com mentes
-            distorcidas que dominam a sociedade, que impõem a submissão, à
-            opressão e à injustiça.
-            <br />Em busca da libertação e justiça, os adolescentes vivem uma
-            vida dupla como Phantom Thieves of Hearts e estudantes do ensino
-            médio. <br />
-            Com um aplicativo de celular misterioso, o grupo entra em uma
-            aventura fantasiosa, usando os seus poderes de outra realidade
-            para poder entrar no coração das pessoas, com o objetivo de
-            transformá-las em pessoas novas.
-          </p>
+            história.
         </div>
 
         <div class="text-center">
           <img src="../img/gameplay-gif-1.gif" alt="" class="inline border-2 border-black mb-4" style="border-radius: 24px" />
+        </div>
+
+        <div class="max-h-max leading-9 text-justify">
+          O grupo é formado com o intuito de deter adultos com mentes
+          distorcidas que dominam a sociedade, que impõem a submissão, à
+          opressão e à injustiça.
+          <br />Em busca da libertação e justiça, os adolescentes vivem uma
+          vida dupla como Phantom Thieves of Hearts e estudantes do ensino
+          médio. <br />
+          Com um aplicativo de celular misterioso, o grupo entra em uma
+          aventura fantasiosa, usando os seus poderes de outra realidade
+          para poder entrar no coração das pessoas, com o objetivo de
+          transformá-las em pessoas novas.
+        </div>
+
+        <div class="text-center">
           <img src="../img/gameplay-gif-2.gif" alt="" class="inline border-2 border-black mb-4" style="border-radius: 24px" />
         </div>
+
       </div>
     </div>
   </div>
-
+  
+<!--Avaliações -->
   <div class="bg-gradient-to-b from-red-700 to-white mt-20 pb-10 ">
-    <!--Avaliações -->
     <h2 class="avaliacoes-bloco text-center mb-4 pt-4">
-      <img class="inline" src="../img/avaliacoes.png" style="height: 90px" />
+      <img class="inline h-16 md:h-24 lg:h-24" src="../img/avaliacoes.png"/>
     </h2>
     <div class="px-16 mt-10">
-      <div class="grid grid-cols-3 gap-5">
-        <ul class="container bg-black p-3 border-2 border-black rounded-lg">
+      <div class="lg:grid lg:grid-cols-3 lg:gap-5 md:grid md:grid-cols-3 md:gap-5 space-y-4 lg:space-y-0 md:space-y-0 ">
+        <ul class="container bg-black p-3 border-2 border-black rounded-lg md:h-46 lg:44">
           <li>
-            <img class="inline rounded-full float-left text-center w-16" src="../img/logo-ign.png" alt="Logo IGN">
+            <img class="inline rounded-full float-left text-center md:w-12 w-16 lg:w-16" src="../img/logo-ign.png" alt="Logo IGN">
           </li>
           <li>
-            <p class="text-white text-center font-bold" style="font-size: 30px">9.7 / 10</p>
+            <p class="text-white text-center font-bold text-3xl md:text-xl">9.7 / 10</p>
           </li>
           <li>
             <p class="text-white text-right px-2">"Um mundo lindo e vibrante e uma história cativante fazem de Persona 5 um novo padrão ouro para RPGs japoneses"</p>
@@ -99,12 +104,12 @@
         </ul>
 
         <div>
-          <ul class="container bg-black p-3 border-2 border-black  rounded-lg">
+          <ul class="container bg-black p-3 border-2 border-black rounded-lg md:h-46 lg:44">
             <li>
-              <img class="inline rounded-full float-left text-center w-16" src="../img/logo-metacritic.png" alt="Logo metacritic">
+              <img class="inline rounded-full float-left text-center md:w-12 w-16 lg:w-16" src="../img/logo-metacritic.png" alt="Logo metacritic">
             </li>
             <li>
-              <p class="text-white text-center font-bold" style="font-size: 30px">9.3 / 10</p>
+              <p class="text-white text-center font-bold text-3xl md:text-xl">9.3 / 10</p>
             </li>
             <li>
               <p class="text-white text-right px-2">"Artisticamente inovador, divertido, profundo e longo. Um dos melhores RPGs que veremos em 2017"</p>
@@ -113,12 +118,12 @@
         </div>
 
         <div>
-          <ul class="container bg-black p-3 border-2 border-black  rounded-lg">
+          <ul class="container bg-black p-3 border-2 border-black rounded-lg md:h-46 lg:44">
             <li>
-              <img class="inline rounded-full float-left text-center w-16" src="../img/logo-polygon.png" alt="Logo polygon">
+              <img class="inline rounded-full float-left text-center md:w-12 w-16 lg:w-16" src="../img/logo-polygon.png" alt="Logo polygon">
             </li>
             <li>
-              <p class="text-white text-center font-bold" style="font-size: 30px">9.0 / 10</p>
+              <p class="text-white text-center font-bold text-3xl md:text-xl">9.0 / 10</p>
             </li>
             <li>
               <p class="text-white text-right">"Persona 5 é uma excelente entrada com estilo na próxima geração da maior franquia da Atlus"</p>
@@ -130,68 +135,77 @@
     
   </div>
 
-  <div class="bg-gradient-to-b from-white to-red-700 pb-10">
-    <!-- Onde comprar-->
+<!-- Onde comprar-->
+  <div class="bg-gradient-to-b from-white to-red-700 pb-10">   
     <h2 class="onde-comprar-bloco text-center mb-4 pt-4">
       <img class="inline" src="../img/onde-comprar.png" style="height: 120px" />
     </h2>
-    <div class="px-96" >
-      <div class="grid grid-cols-2 gap-7 mt-10 text-lg">
-        <a href="https://www.techtudo.com.br/noticias/2022/06/persona-5-royal-ganha-data-de-lancamento-para-nintendo-switch.ghtml" target="_blank">
-          <div class="container bg-black p-3 border-2 border-black rounded-lg text">
-            <li class="text-center">
-              <img class="inline w-16" src="../img/logo-switch.png" alt="Switch logo">
-            
-            </li>
-            <li class="">
-              <li class="text-white px-2">Lançamento: 21 de outubro de 2022</li>
-              <li class="text-white px-2">Preço: Em breve</li>
-              <li class="text-white px-2">Disponível em: Nintendo E-Shop</li>
-            </li>
+    <div class="lg:px-96 md:px-20" >
+      <div class="md:grid md:grid-cols-2 md:gap-7 md:mt-10 md:text-md space-y-6 md:space-y-0 md:gap-5 md:text-lg">
+        <div>
+          <a href="https://www.techtudo.com.br/noticias/2022/06/persona-5-royal-ganha-data-de-lancamento-para-nintendo-switch.ghtml" target="_blank" >
+            <div class="container bg-black p-3 border-2 border-black rounded-lg text w-full h-full">
+              <li class="text-center">
+                <img class="inline w-16" src="../img/logo-switch.png" alt="Switch logo">
+              
+              </li>
+              <li class="">
+                <li class="text-white px-2">Lançamento: 21 de outubro de 2022</li>
+                <li class="text-white px-2">Preço: Em breve</li>
+                <li class="text-white px-2">Disponível em: Nintendo E-Shop</li>
+              </li>
+            </div>
+          </a>
+        </div>
+        
+        <div>
+          <a href="https://store.playstation.com/pt-br/product/UP2611-CUSA05877_00-PERSONA512345678" target="_blank">
+            <div class="container bg-black p-3 border-2 border-black rounded-lg w-full h-full">
+              <li class="text-center">
+                <img class="inline w-16 pb-4" src="../img/logo-playstation.png" alt="Playstation logo">
+              
+              </li>
+              <li class="">
+                <li class="text-white px-2">Lançamento: 04 de abril de 2017</li>
+                <li class="text-white px-2">Preço: R$79,90</li>
+                <li class="text-white px-2">Disponível em: PSN Store</li>
+              </li>
+            </div>
+          </a>
+        </div>
+        
+        <div>
+          <a href="https://www.theenemy.com.br/temporada-de-anuncios-2022/persona-5-royal-e-mais-confirmados-para-xbox-e-pc" target="_blank">
+            <div class="container bg-black p-3 border-2 border-black rounded-lg w-full h-full">
+              <li class="text-center">
+                <img class="inline w-16" src="../img/logo-steam.png" alt="Steam logo">
+              
+              </li>
+              <li class="">
+                <li class="text-white px-2">Lançamento: Em breve</li>
+                <li class="text-white px-2">Preço: Em breve</li>
+                <li class="text-white px-2">Disponível em: Em breve</li>
+              </li>
+            </div>
+          </a>
+        </div>
+        
+        <div>
+          <a href="https://news.xbox.com/pt-br/2022/06/12/persona-series-em-breve-para-xbox-one-xbox-series-xs-windows-pc-e-com-xbox-game-pass/" target="_blank">
+            <div class="container bg-black p-3 border-2 border-black rounded-lg w-full h-full">
+              <li class="text-center">
+                <img class="inline w-16" src="../img/logo-xbox.png" alt="Xbox logo">
+              
+              </li>
+              <li>
+                <li class="text-white px-2">Lançamento: 21 de outubro de 2022</li>
+                <li class="text-white px-2">Preço: R$5,00 (Game Pass)</li>
+                <li class="text-white px-2">Disponível em: Xbox</li>
+              </li>
+            </div>
+          </a>
           </div>
-        </a>
-
-        <a href="https://store.playstation.com/pt-br/product/UP2611-CUSA05877_00-PERSONA512345678" target="_blank">
-          <div class="container bg-black p-3 border-2 border-black rounded-lg">
-            <li class="text-center">
-              <img class="inline w-16 pb-4" src="../img/logo-playstation.png" alt="Playstation logo">
-            
-            </li>
-            <li class="">
-              <li class="text-white px-2">Lançamento: 04 de abril de 2017</li>
-              <li class="text-white px-2">Preço: R$79,90</li>
-              <li class="text-white px-2">Disponível em: PSN Store</li>
-            </li>
-          </div>
-        </a>
-
-        <a href="https://www.theenemy.com.br/temporada-de-anuncios-2022/persona-5-royal-e-mais-confirmados-para-xbox-e-pc" target="_blank">
-          <div class="container bg-black p-3 border-2 border-black rounded-lg">
-            <li class="text-center">
-              <img class="inline w-16" src="../img/logo-steam.png" alt="Steam logo">
-            
-            </li>
-            <li class="">
-              <li class="text-white px-2">Lançamento: Em breve</li>
-              <li class="text-white px-2">Preço: Em breve</li>
-              <li class="text-white px-2">Disponível em: Em breve</li>
-            </li>
-          </div>
-        </a>
-
-        <a href="https://news.xbox.com/pt-br/2022/06/12/persona-series-em-breve-para-xbox-one-xbox-series-xs-windows-pc-e-com-xbox-game-pass/" target="_blank">
-          <div class="container bg-black p-3 border-2 border-black rounded-lg">
-            <li class="text-center">
-              <img class="inline w-16" src="../img/logo-xbox.png" alt="Xbox logo">
-            
-            </li>
-            <li>
-              <li class="text-white px-2">Lançamento: 21 de outubro de 2022</li>
-              <li class="text-white px-2">Preço: R$5,00 (Game Pass)</li>
-              <li class="text-white px-2">Disponível em: Xbox</li>
-            </li>
-          </div>
-        </a>
+        
 
       </div>
     </div>
@@ -205,13 +219,13 @@
     <!--Galeria-->
   </div>
 
+<!--Footer-->
   <footer class="w-full bg-black pb-10">
-    <!--Footer-->
     <h2 class="sobre-bloco text-center mb-4 pt-4">
       <img class="inline" src="../img/contatos.png" alt="Contatos" style="height: 90px">
     </h2>
     <div class="px-10 justify-items-center">
-      <ul class="container grid grid-cols-6 gap-3 justify-items-center">
+      <ul class=" grid grid-cols-3  md:grid-cols-6 gap-3 justify-items-center">
         <li class="inline-block">
           <a href="https://www.youtube.com/c/atlus/featured" target="_blank" class="border-4 border-solid border-red-600 block p-2.5 w-16">
             <img src="../img/icon-youtube.png" alt="Ícone YouTube" class="">
@@ -244,6 +258,9 @@
           </a>
         </li>
       </ul>
+    </div>
+    <div class="text-white pt-20 text-center">
+      © Copyright 2022 - todos os direitos reservados
     </div>
   </footer>
 </body>
