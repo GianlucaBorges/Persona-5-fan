@@ -14,23 +14,23 @@
   <title>Persona 5</title>
 </head>
 
-<body class="h-max bg-red-700" style="font-family: 'Nunito', sans-serif;">
+<body id="home" class="h-max bg-red-700" style="font-family: 'Nunito', sans-serif;">
   <!--Header-->
   <div class="relative"> 
     <header class="fixed w-full bg-red-600 mx-auto lg:px-20 flex items-center h-12 xl:h-32 md:h-28">
       <div>
-        <a href="index.html" class="grid-4">
+        <a href="#home" class="grid-4">
           <img src="../img/logo-p5.png" alt="Persona 5 Logo" class="w-16 xl:w-40 md:w-36" />
         </a>
       </div>
 
       <ul class="ml-auto">
         <li class="flex items-center">
-          <a class="mx-2" href="sobre.html" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/sobre.png" alt="sobre" /></a>
-          <a class="mx-2" href="avaliacoes.html" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/avaliacoes.png" alt="avaliacoes" />
+          <a class="mx-2" href="#sobre" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/sobre.png" alt="sobre" /></a>
+          <a class="mx-2" href="#avaliacoes" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/avaliacoes.png" alt="avaliacoes" />
           </a>
-          <a class="mx-2" href="onde-comprar.html" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/onde-comprar.png" alt="onde-comprar" /></a>
-          <a class="mx-2" href="galeria.html" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/galeria.png" alt="galeria" /></a>
+          <a class="mx-2" href="#onde-comprar" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/onde-comprar.png" alt="onde-comprar" /></a>
+          <a class="mx-2" href="#galeria" class="text-lg text-neutral-50"><img class="w-11 xl:w-40 md:w-36" src="../img/galeria.png" alt="galeria" /></a>
         </li>
       </ul>
     </header>
@@ -44,7 +44,7 @@
   </div>
 
   <!--Sobre-->
-  <div class="container mx-auto pt-10 text-lg tracking-widest text-neutral-50 ">
+  <div id="sobre" class="container mx-auto pt-10 text-lg tracking-widest text-neutral-50 ">
     <div class="p-4 border-2 border-black bg-black shadow-2xl shadow-stone-900" style="border-radius: 36px">
       <h2 class="sobre-bloco text-center mb-4">
         <img class="inline" src="../img/sobre.png" style="height: 90px" />
@@ -85,7 +85,7 @@
   </div>
   
 <!--Avaliações -->
-  <div class="bg-gradient-to-b from-red-700 to-white mt-20 pb-10 ">
+  <div id="avaliacoes" class="bg-gradient-to-b from-red-700 to-white mt-20 pb-10 ">
     <h2 class="avaliacoes-bloco text-center mb-4 pt-4">
       <img class="inline h-16 md:h-24 lg:h-24" src="../img/avaliacoes.png"/>
     </h2>
@@ -136,7 +136,7 @@
   </div>
 
 <!-- Onde comprar-->
-  <div class="bg-gradient-to-b from-white to-red-700 pb-10">   
+  <div id="onde-comprar" class="bg-gradient-to-b from-white to-red-700 pb-10">   
     <h2 class="onde-comprar-bloco text-center mb-4 pt-4">
       <img class="inline" src="../img/onde-comprar.png" style="height: 120px" />
     </h2>
@@ -213,7 +213,7 @@
   </div>
 
 
-  <div>
+  <div id="galeria">
     <!--Galeria-->
     <h2 class="avaliacoes-bloco text-center mb-4 pt-4">
       <img class="inline" src="../img/galeria.png" alt="Galeria" style="height: 90px">

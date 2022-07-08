@@ -24,3 +24,12 @@
   background: black;
   margin: 0 auto;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  padding-top: 125px; 
+  margin-top: -125px
+}
