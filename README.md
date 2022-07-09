@@ -1,5 +1,5 @@
 <h1 align="center">Persona 5 fan</h1>
-<h1>
+<h1 align="center">
 <img src="img/site-preview.gif">
 </h1>
 
